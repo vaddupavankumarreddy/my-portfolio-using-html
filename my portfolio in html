@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="'width=device-width,initial-scale=1.0">
+        <title>My Portfolio</title>
+        <style>
+            body{
+                font-family:Arial, sans-serif;
+                margin:0;
+                padding:0;
+                background-color: #f4f4f4;
+            }
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px 0;
+                text-align:center;
+            }
+            nav {
+                background-color: #444;
+                color: #fff;
+                padding: 10px 0;
+                text-align:center;
+            }
+            nav a{
+                color: #fff;
+                text-decoration: none;
+                padding: 0 10px;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            section {
+                padding:20px;
+            }
+            footer{
+                background-color: #333;
+                color: #fff;
+                padding: 20px 0;
+                text-align:center;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio website. I'm passionate about coding and love to create amazing web experiences.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Iris Flower Classification</li>
+                <li>Project 2: House price Prediction</li>
+                <li>Project 3: Wine Price Prediction</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email:vaddupavankumarreddy@gnail.com</p>
+            <p>Phone:9182659506</p>
+        </section>
+        <footer>
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
